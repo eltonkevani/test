@@ -1,5 +1,5 @@
 xlr {
-  release('testTemplate 5.0') {
+  release('testTemplate 6.0') {
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2017-05-04T09:00:00+0200')
     scriptUsername 'admin'
     scriptUserPassword '{b64}YFKOzMTEICsqFJ592l2FbQ=='
