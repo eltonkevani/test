@@ -1,5 +1,4 @@
-def rel = getCurrentRelease()
-def variable1 = rel.variables['variable1'].value?
+def variable1 = releaseVariables['variable1']
 
 xlr {
   release('test') {
