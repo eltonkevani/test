@@ -1,7 +1,8 @@
 def variable1 = releaseVariables['variable1']
+def variable2 = releaseVariables['variable2']
 
 xlr {
-  release('Release 'variable1) {
+  release('Release ${variable1}') {
     variables {
       stringVariable('variable1') {
         value variable1
